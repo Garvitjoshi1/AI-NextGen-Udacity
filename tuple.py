@@ -1,4 +1,5 @@
 # Tuples are immutable data structures but are ordered.
+
 dimensions = 52, 40, 100
 #  three variables are assigned from the content of the tuple dimensions. This is called tuple unpacking.
 length, width, height = dimensions
