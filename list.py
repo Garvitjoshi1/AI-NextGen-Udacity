@@ -29,3 +29,13 @@ print(direction)
 
 name = "-".join(['Hi', "Hello", "User"])
 print(name)
+
+# Question
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a == b)
+print(a is b)
+print(a == c)
+print(a is c)  # False because they look same but are different objects.
