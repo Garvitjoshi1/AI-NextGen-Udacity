@@ -13,11 +13,12 @@ print(set1.union(set2))
 print(set1.intersection(set2))
 print(set1.difference(set2))
 
-# Question
+# Question - 1
 a = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 b = set(a)
 print(len(a) - len(b))
 
+# Question - 2
 a = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 b = set(a)
 b.add(5)
